@@ -17,8 +17,6 @@ while i<=n:
 				print i-1,
 				i=i-1
 			j=j+1
-			print ""
-	        print ""
 		break	
 
 	j=1	
