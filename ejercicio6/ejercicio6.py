@@ -8,17 +8,22 @@ while i<=n:
 		print i,
 		j=j+1
 	
-	print ""
-	print ""
+	
 	if i==n:
-		j=1
-		while j<=i:
-			while i!=0:
-				print i-1,
-				i=i-1
-			j=j+1
-		break	
-
+		while i!=0:
+    
+			while j<=i:
+				print i,
+				j=j+1
+	
+			print ""
+			print ""
+	
+			j=1	
+			i=i-1	
+	 	break
+	print ""
+	print ""	
 	j=1	
 	i=i+1
 
